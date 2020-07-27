@@ -6,6 +6,7 @@ interface Balance {
   total: number;
 }
 
+// eslint-disable-next-line @typescript-eslint/class-name-casing
 interface createTransactionDTO {
   title: string;
   type: 'income' | 'outcome';
